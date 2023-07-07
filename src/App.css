@@ -1,0 +1,49 @@
+.pagehome{
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  width:400px;
+  margin:auto;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+input{
+  padding: 8px 0px;
+  margin-top: 10px;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+button{
+  padding: 8px 2px;
+  margin: 10px 2px 0px 2px ;
+}
+
+.nav{
+  width: 100vw;
+  background-color: black;
+  color:aliceblue;
+  display: flex;
+  justify-content: space-around ;
+  padding:10px 0px;
+  margin-bottom: 20px;
+}
+.nav:hover{
+  cursor: pointer;
+}
+.logout{
+  background-color: black;
+  color:antiquewhite;
+  border:none;
+  margin-right: 2rem;
+}
+.logout:hover{
+  cursor: pointer;
+  position: relative;
+}
+.logoutnav{
+ display: flex;
+ justify-content: end;
+}
+.blue{
+  background-color: blue;
+  color : white;
+}
