@@ -97,14 +97,3 @@ const Task = ({ task, handleUpdateTask, handleDeleteTask }) => {
 export default Task;
 
 
-
-
-
-
-{/* <button onClick={handleStatusChange}>
-{editedTask.status === 'incomplete'
-  ? 'Mark as In Progress'
-  : editedTask.status === 'in progress'
-  ? 'Mark as Completed'
-  : 'Mark as Incomplete'}
-</button> */}
